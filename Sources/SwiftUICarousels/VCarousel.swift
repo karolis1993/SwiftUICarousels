@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct VCarousel<Item: View>: View {
+public struct VCarousel<Item: View>: View {
     private let sideVisibility: CGFloat
     private let spacing: CGFloat
     private let itemCount: Int
@@ -14,7 +14,7 @@ struct VCarousel<Item: View>: View {
     @State private var transforms: [CGFloat]
     @State private var didUpdatePage = false
 
-    init(
+    public init(
         numberOfItems: Int,
         sideVisibility: CGFloat = 64,
         itemSpacing: CGFloat = 8,
@@ -29,7 +29,7 @@ struct VCarousel<Item: View>: View {
         self.transforms = [CGFloat](repeating: 0.8, count: numberOfItems)
     }
 
-    var body: some View {
+    public var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
