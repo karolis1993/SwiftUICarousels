@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftUICarousel
 
 struct ContentView: View {
-    let movies = [
+    private let movies = [
         Movie(name: "Dune", imageName: "dune"),
         Movie(name: "Avengers - Endgame", imageName: "endgame"),
         Movie(name: "Batman", imageName: "batman")
