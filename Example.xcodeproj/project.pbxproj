@@ -20,7 +20,7 @@
 		8A4B8A1B29831F9800A329DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A4B8A1D29831F9900A329DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A4B8A2029831F9900A329DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8A4B8A2C2983232500A329DE /* SwiftUICarousels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftUICarousels; sourceTree = "<group>"; };
+		8A5D3CFE298403D1006C45C8 /* SwiftUICarousels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftUICarousels; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		8A4B8A272983203A00A329DE /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				8A4B8A2C2983232500A329DE /* SwiftUICarousels */,
+				8A5D3CFE298403D1006C45C8 /* SwiftUICarousels */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
