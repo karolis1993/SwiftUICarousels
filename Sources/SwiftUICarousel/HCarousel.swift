@@ -20,14 +20,14 @@ public struct HCarousel<Item: View>: View {
         numberOfItems: Int,
         sideVisibility: CGFloat = 64,
         itemSpacing: CGFloat = 8,
-        page: Int = 0,
+        page: Binding<Int>,
         @ViewBuilder items: @escaping (_ index: Int) -> Item)
     {
         self.itemCount = numberOfItems
         self.sideVisibility = sideVisibility
         self.spacing = itemSpacing
         self.items = items
-        self.page = page
+        self._page = page
         self.transforms = [CGFloat](repeating: 0.8, count: numberOfItems)
     }
 
@@ -175,8 +175,10 @@ public struct HCarousel<Item: View>: View {
 }
 
 struct Carousel_Previews: PreviewProvider {
+    @State static var page = 0
+
     static var previews: some View {
-        HCarousel(numberOfItems: 3, items: { index in
+        HCarousel(numberOfItems: 3, page: $page,  items: { index in
             ZStack {
                 RoundedRectangle(cornerRadius: 8).fill(.blue.gradient)
                 Text("\(index)")
