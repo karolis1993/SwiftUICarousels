@@ -17,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A29472E29841AC800BF77DE /* SwiftUICarousels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftUICarousels; sourceTree = "<group>"; };
 		8A4B8A1629831F9800A329DE /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4B8A1929831F9800A329DE /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		8A4B8A1B29831F9800A329DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +24,7 @@
 		8A4B8A2029831F9900A329DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A5D3D00298408BE006C45C8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		8A5D3D02298409D6006C45C8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8A9CE31C29841BE900D203A0 /* SwiftUICarousels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftUICarousels; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,18 +39,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8A29472D29841AC800BF77DE /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				8A29472E29841AC800BF77DE /* SwiftUICarousels */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		8A4B8A0D29831F9800A329DE = {
 			isa = PBXGroup;
 			children = (
-				8A29472D29841AC800BF77DE /* Packages */,
+				8A9CE31C29841BE900D203A0 /* SwiftUICarousels */,
 				8A4B8A1829831F9800A329DE /* Example */,
 				8A4B8A1729831F9800A329DE /* Products */,
 				8A4B8A292983205C00A329DE /* Frameworks */,
