@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A29472A298410BE00BF77DE /* SwiftUICarousels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftUICarousels; sourceTree = "<group>"; };
+		8A29472E29841AC800BF77DE /* SwiftUICarousels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftUICarousels; sourceTree = "<group>"; };
 		8A4B8A1629831F9800A329DE /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4B8A1929831F9800A329DE /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		8A4B8A1B29831F9800A329DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,10 +39,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8A294729298410BE00BF77DE /* Packages */ = {
+		8A29472D29841AC800BF77DE /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				8A29472A298410BE00BF77DE /* SwiftUICarousels */,
+				8A29472E29841AC800BF77DE /* SwiftUICarousels */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -50,7 +50,7 @@
 		8A4B8A0D29831F9800A329DE = {
 			isa = PBXGroup;
 			children = (
-				8A294729298410BE00BF77DE /* Packages */,
+				8A29472D29841AC800BF77DE /* Packages */,
 				8A4B8A1829831F9800A329DE /* Example */,
 				8A4B8A1729831F9800A329DE /* Products */,
 				8A4B8A292983205C00A329DE /* Frameworks */,
