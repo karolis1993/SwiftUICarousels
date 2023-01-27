@@ -37,7 +37,11 @@ struct VCarousel<Item: View>: View {
 struct VCarousel_Previews: PreviewProvider {
     static var previews: some View {
         VCarousel(numberOfItems: 3) { index in
-            Text("\(index)")
+            ZStack {
+                RoundedRectangle(cornerRadius: 8).fill(.blue.gradient)
+                Text("\(index)")
+                    .foregroundColor(.white)
+            }
         }
     }
 }
