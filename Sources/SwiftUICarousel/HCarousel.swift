@@ -10,23 +10,24 @@ public struct HCarousel<Item: View>: View {
     @State private var offset: CGFloat = 0.0
     @State private var lastTranslation = 0.0
     @State private var cardSize = 0.0
-    @State private var page: Int
     @State private var pageRanges = [Range<Int>]()
     @State private var transforms: [CGFloat]
     @State private var didUpdatePage = false
+
+    @Binding var page: Int
 
     public init(
         numberOfItems: Int,
         sideVisibility: CGFloat = 64,
         itemSpacing: CGFloat = 8,
-        startItemIndex: Int = 0,
+        page: Int = 0,
         @ViewBuilder items: @escaping (_ index: Int) -> Item)
     {
         self.itemCount = numberOfItems
         self.sideVisibility = sideVisibility
         self.spacing = itemSpacing
         self.items = items
-        self.page = startItemIndex
+        self.page = page
         self.transforms = [CGFloat](repeating: 0.8, count: numberOfItems)
     }
 

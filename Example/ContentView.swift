@@ -2,17 +2,16 @@ import SwiftUI
 import SwiftUICarousel
 
 struct ContentView: View {
-    let colors: [Color] = [.red, .green, .blue]
+    let movies = [
+        Movie(name: "Dune", imageName: "dune"),
+        Movie(name: "Endgame", imageName: "endgame"),
+        Movie(name: "Batman", imageName: "batman")
+    ]
 
     var body: some View {
-        VStack {
+        ZStack {
             HCarousel(numberOfItems: 3) { index in
-                ZStack {
-                    colors[index]
-                    Text("\(index)")
-                        .foregroundColor(.white)
-                }
-                .cornerRadius(8)
+                CardView(movie: movies[index])
             }
             .frame(height: 400)
         }
